@@ -11,7 +11,7 @@ export enum Breakpoints {
 }
 
 function getBreakpoint(width: number) {
-  if (width < 355) return Breakpoints.XXS;
+  if (width < 365) return Breakpoints.XXS;
   if (width < 475) return Breakpoints.XS;
   if (width < 640) return Breakpoints.SM;
   if (width < 768) return Breakpoints.MD;
