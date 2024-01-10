@@ -1,12 +1,13 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { Fragment, useRef, useState } from "react";
-import { Breakpoints, useClickOutside, useIsLessThan } from "../../commom";
-import { menuList } from "./menuList";
+import { useRef, useState } from "react";
+import { useClickOutside } from "../../commom";
+import { useMenuList } from "./useMenuList";
 
 export function BurgerMenu() {
   const containerRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
-  const isExtraSmall = useIsLessThan(Breakpoints.XXS);
+
+  const list = useMenuList();
 
   useClickOutside({ ref: containerRef, action: () => setIsOpen(false) });
 
@@ -41,20 +42,16 @@ export function BurgerMenu() {
               className="rounded bg-gray-200  right-1 absolute inline-block font-poppins z-1000"
             >
               <ul className="text-main-black ">
-                {menuList({ showTelephone: isExtraSmall }).map((item) => (
-                  <Fragment>
-                    {!item.disabled && (
-                      <li>
-                        <a
-                          href={item.href}
-                          className="flex gap-1 px-3 py-2 hover:bg-gray-300"
-                        >
-                          <span>{item.icon}</span>
-                          {item.label}
-                        </a>
-                      </li>
-                    )}
-                  </Fragment>
+                {list.map((item) => (
+                  <li>
+                    <a
+                      href={item.href}
+                      className="flex gap-1 px-3 py-2 hover:bg-gray-300"
+                    >
+                      <span>{item.icon}</span>
+                      {item.label}
+                    </a>
+                  </li>
                 ))}
               </ul>
             </motion.nav>

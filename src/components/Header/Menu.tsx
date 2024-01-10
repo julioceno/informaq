@@ -1,14 +1,15 @@
 import { Phone } from "lucide-react";
 import { Breakpoints, useIsLessThan } from "../../commom";
-import { menuList } from "./menuList";
+import { useMenuList } from "./useMenuList";
 
 export function Menu() {
+  const list = useMenuList();
   const isExtraSmall = useIsLessThan(Breakpoints.XXS);
 
   return (
     <nav className="flex items-center font-poppins font-medium">
       <ul className="hidden md:flex gap-3">
-        {menuList({}).map((item, index) => (
+        {list.map((item, index) => (
           <li key={index}>
             <a href={item.href} className="text-black hover:underline">
               {item.label}

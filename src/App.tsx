@@ -1,4 +1,4 @@
-import { Header, ImageAndText } from "./components";
+import { Header, MainSection } from "./components";
 
 export default function App() {
   return (
@@ -6,10 +6,10 @@ export default function App() {
       <Header />
       <main className="mt-10">
         <section className="flex flex-col gap-10">
-          <ImageAndText />
-          <ImageAndText />
-          <ImageAndText />
-          <ImageAndText />
+          <MainSection />
+          <MainSection />
+          <MainSection />
+          <MainSection />
         </section>
       </main>
     </div>
