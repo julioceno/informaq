@@ -12,6 +12,7 @@ export default {
         "6xl": "3rem",
       },
       fontSize: {
+        "4xl": ["2.25rem", "3.5rem"],
         "5xl": ["3rem", "5rem"],
       },
     },

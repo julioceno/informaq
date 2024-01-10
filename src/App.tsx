@@ -7,9 +7,6 @@ export default function App() {
       <main className="mt-10">
         <section className="flex flex-col gap-10">
           <MainSection />
-          <MainSection />
-          <MainSection />
-          <MainSection />
         </section>
       </main>
     </div>
