@@ -1,11 +1,11 @@
-import { Header, MainSection, PresentationService } from "./components";
+import { Footer, Header, MainSection, PresentationService } from "./components";
 import { services } from "./data";
 
 export default function App() {
   return (
-    <div className="max-w-[2000px] mx-auto flex flex-col pt-10 sm:pt-16 md:pt-20 px-4 sm:px-10 lg:px-32">
+    <div className="max-w-[2000px] mx-auto flex flex-col gap-5 py-10 sm:pt-16 md:pt-20 px-4 sm:px-10 lg:px-32">
       <Header />
-      <main className="flex flex-col gap-36 mt-10">
+      <main className="flex flex-col gap-36 mt-5">
         <section className="flex flex-col gap-10">
           <MainSection />
         </section>
@@ -22,6 +22,8 @@ export default function App() {
           ))}
         </section>
       </main>
+
+      <Footer />
     </div>
   );
 }

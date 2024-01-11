@@ -37,7 +37,7 @@ export function PresentationService({
         <h2 className="font-inter text-2xl sm:text-3xl md:text-4xl 2xl:text-5xl font-extrabold">
           {title}
         </h2>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-1.5 md:gap-4">
           {paragraphs.map((paragraph) => (
             <p className="inter tracking-wider leading-8 text-black ">
               {paragraph}

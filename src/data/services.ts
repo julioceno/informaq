@@ -54,7 +54,7 @@ export const services: PresentationServiceProps[] = [
         ],
       },
       {
-        title: "Manutenção Confiáve",
+        title: "Manutenção Confiável",
         paragraphs: [
           "Para garantir o máximo aproveitamento da sua instalação solar, oferecemos serviços de manutenção regulares. Verificamos e ajustamos cada componente, assegurando que seu sistema opere com eficiência máxima ao longo do tempo.",
         ],
