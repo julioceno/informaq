@@ -15,7 +15,8 @@ export default function App() {
               paragraphs={service.paragraphs}
               photo={service.photo}
               title={service.title}
-              items={service.items}
+              features={service.features}
+              index={index}
               key={`${index}-${service.title}`}
             />
           ))}

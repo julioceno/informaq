@@ -12,7 +12,7 @@ export const services: PresentationServiceProps[] = [
       "Seu computador merece estar sempre na melhor forma para garantir um desempenho excepcional. Nossos serviços de manutenção abrangem desde a formatação e limpeza até a montagem e otimização, proporcionando uma experiência fluida e livre de problemas.",
       "Confie em nossa experiência para manter seu computador em condições ideais. Entre em contato conosco e proporcione ao seu dispositivo a atenção que ele merece.",
     ],
-    items: [
+    features: [
       {
         title: "Formatação Profissional",
         paragraphs: [
@@ -31,6 +31,12 @@ export const services: PresentationServiceProps[] = [
           "Se você está pensando em uma atualização de hardware ou precisa de um novo sistema montado, nossos especialistas em montagem garantem uma configuração perfeita, considerando suas necessidades específicas.",
         ],
       },
+      {
+        title: "Otimização Avançada",
+        paragraphs: [
+          "Aprimoramos o desempenho do seu computador, ajustando configurações e removendo processos desnecessários. Deixe-nos otimizar seu sistema para um funcionamento mais rápido e eficaz.",
+        ],
+      },
     ],
   },
   {
@@ -40,7 +46,7 @@ export const services: PresentationServiceProps[] = [
       "Descubra o potencial da energia solar com nossos serviços especializados em instalação e manutenção de painéis solares. Na busca por uma fonte de energia mais limpa e eficiente, oferecemos soluções que não apenas economizam dinheiro, mas também contribuem para um futuro mais sustentável.",
       "Faça a transição para a energia solar com confiança. Entre em contato conosco para explorar como podemos criar um sistema solar personalizado para sua residência ou empresa.",
     ],
-    items: [
+    features: [
       {
         title: "Instalação de Ponta",
         paragraphs: [
@@ -74,7 +80,7 @@ export const services: PresentationServiceProps[] = [
       "Elevando sua Presença Digital no universo em constante evolução da tecnologia, oferecemos serviços de desenvolvimento de software que transcendem as expectativas. Desde a criação de websites envolventes até soluções avançadas de serviços de cloud, nossa equipe especializada está pronta para transformar suas ideias em realidade digital.",
       "Explore as infinitas possibilidades do desenvolvimento de software conosco. Entre em contato agora e descubra como podemos impulsionar sua presença digital para novos patamares de sucesso.",
     ],
-    items: [
+    features: [
       {
         title: "Criação de Websites Personalizados",
         paragraphs: [
