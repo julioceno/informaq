@@ -1,3 +1,4 @@
+export * from "./About";
 export * from "./Header";
 export * from "./MainSection";
 export * from "./PresentationService";

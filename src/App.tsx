@@ -1,4 +1,10 @@
-import { Footer, Header, MainSection, PresentationService } from "./components";
+import {
+  About,
+  Footer,
+  Header,
+  MainSection,
+  PresentationService,
+} from "./components";
 import { services } from "./data";
 
 export default function App() {
@@ -9,7 +15,7 @@ export default function App() {
         <section className="flex flex-col gap-10">
           <MainSection />
         </section>
-        <section className="flex flex-col gap-10">
+        <section className="flex flex-col gap-10" id="services">
           {services.map((service, index) => (
             <PresentationService
               paragraphs={service.paragraphs}
@@ -20,6 +26,9 @@ export default function App() {
               key={`${index}-${service.title}`}
             />
           ))}
+        </section>
+        <section id="about">
+          <About />
         </section>
       </main>
 

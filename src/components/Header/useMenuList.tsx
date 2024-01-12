@@ -13,12 +13,12 @@ export const useMenuList = (): MenuItem[] => {
     {
       icon: <FolderKanban size={20} />,
       label: "Nossos Serviços",
-      href: "#",
+      href: "#services",
     },
     {
       icon: <FolderKanban size={20} />,
       label: "Sobre",
-      href: "#",
+      href: "#about",
     },
     {
       icon: <Send size={20} />,
