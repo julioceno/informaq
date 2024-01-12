@@ -1,21 +1,5 @@
-import { Instagram, MessageCircleHeart, Smartphone } from "lucide-react";
 import { useEffect, useState } from "react";
-import { SocialMediaEnum } from "../../commom";
-
-const links = [
-  {
-    icon: <MessageCircleHeart size={22} className="text-gray-600" />,
-    href: SocialMediaEnum.WHATSAPP,
-  },
-  {
-    icon: <Smartphone size={22} className="text-gray-600" />,
-    href: SocialMediaEnum.TELPHONE_REDIRECT,
-  },
-  {
-    icon: <Instagram size={22} className="text-gray-600" />,
-    href: SocialMediaEnum.INSTAGRAM,
-  },
-];
+import { contacts } from "../../utils";
 
 export function Footer() {
   const [year, setYear] = useState<number>();
@@ -38,9 +22,9 @@ export function Footer() {
         </div>
         <div className="flex flex-col md:flex-row-reverse w-full justify-between">
           <div className="flex gap-1 self-end">
-            {links.map((link) => (
-              <a href={link.href} target="_blank">
-                {link.icon}
+            {contacts.map(({ href, icon: Icon }) => (
+              <a href={href} target="_blank">
+                <Icon className="text-gray-600 size-6" />
               </a>
             ))}
           </div>

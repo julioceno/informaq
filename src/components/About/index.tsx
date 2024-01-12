@@ -1,26 +1,8 @@
 import { Clock, Cloud, Headphones } from "lucide-react";
-import { ReactNode } from "react";
 import DoubleQuatationMarks from "../../../public/double-quatation-marks.svg";
+import { Feature, FeatureProps } from "./Feature";
 
-interface Props {
-  icon: ReactNode;
-  title: string;
-  paragraph: string;
-}
-
-function Feature({ icon, paragraph, title }: Props) {
-  return (
-    <div className="flex flex-col  justify-start items-center font-poppins">
-      <div className="h-14 md:h-16 w-14 md:w-16 bg-main-blue/15 flex justify-center items-center rounded-full">
-        {icon}
-      </div>
-      <h3 className="font-extrabold text-base md:text-xl">{title}</h3>
-      <p className="font-light text-center text-sm md:text-base">{paragraph}</p>
-    </div>
-  );
-}
-
-const features: Props[] = [
+const features: FeatureProps[] = [
   {
     icon: <Clock className="text-main-blue size-8 md:size-10" />,
     title: "Velocidade",

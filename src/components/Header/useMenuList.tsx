@@ -23,7 +23,7 @@ export const useMenuList = (): MenuItem[] => {
     {
       icon: <Send size={20} />,
       label: "Contato",
-      href: "#",
+      href: "#contact",
     },
     {
       icon: <MapPinned size={20} />,

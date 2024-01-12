@@ -1,5 +1,6 @@
 import {
   About,
+  Contact,
   Footer,
   Header,
   MainSection,
@@ -29,6 +30,9 @@ export default function App() {
         </section>
         <section id="about">
           <About />
+        </section>
+        <section id="contact">
+          <Contact />
         </section>
       </main>
 
