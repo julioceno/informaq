@@ -10,9 +10,9 @@ export function Maps() {
   const lat = Number(import.meta.env.VITE_MAPS_LAT);
   const lng = Number(import.meta.env.VITE_MAPS_LNG);
 
-  const position = { lat, lng };
+  const center = useMemo(() => ({ lat, lng }), []);
 
-  const center = useMemo(() => position, []);
+  console.log(center);
 
   return (
     <Fragment>
