@@ -15,6 +15,9 @@ export default {
         "4xl": ["2.25rem", "3.5rem"],
         "5xl": ["3rem", "5rem"],
       },
+      screens: {
+        xxs: "365px",
+      },
     },
     fontFamily: {
       poppins: ["Poppins", ...defaultTheme.fontFamily.sans],

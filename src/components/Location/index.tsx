@@ -50,7 +50,7 @@ export function Location() {
         <div className="h-full min-h-80 md:w-2/3">
           <Maps />
         </div>
-        <div className="md:w-1/3 flex flex-col gap-5 sm:flex-row md:flex-col">
+        <div className="md:w-1/3 flex flex-col gap-5 xxs:flex-row md:flex-col">
           {informations.map((info, index) => (
             <Info title={info.title} paragraphs={info.paragraphs} key={index} />
           ))}

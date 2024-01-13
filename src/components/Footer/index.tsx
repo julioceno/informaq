@@ -13,22 +13,22 @@ export function Footer() {
 
   return (
     <footer className="flex flex-col gap-0.5">
-      <div className="flex justify-between items-end md:gap-3">
+      <div className="flex flex-col xxs:flex-row justify-between items-center xxs:items-end gap-1  xxs:gap-3">
         <div className="flex items-end gap-1">
           <h3 className="text-2xl md:text-3xl font-poppins text-zinc-700 font-bold">
             INFORMAQ
           </h3>
           <span className="text-main-blue text-sm md:text-base">Ltda</span>
         </div>
-        <div className="flex flex-col md:flex-row-reverse w-full justify-between">
-          <div className="flex gap-1 self-end">
+        <div className="flex flex-col md:flex-row-reverse w-full justify-between items-center xxs:items-start">
+          <div className="flex gap-1 self-center xxs:self-end ">
             {contacts.map(({ href, icon: Icon }) => (
               <a href={href} target="_blank">
                 <Icon className="text-gray-600 size-6" />
               </a>
             ))}
           </div>
-          <p className="flex inter text-xs md:text-sm font-light justify-end">
+          <p className="flex inter text-xs md:text-sm font-light justify-end text-end">
             &copy; Todos os direitos reservados {year}
           </p>
         </div>
