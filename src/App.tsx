@@ -3,6 +3,7 @@ import {
   Contact,
   Footer,
   Header,
+  Location,
   MainSection,
   PresentationService,
 } from "./components";
@@ -33,6 +34,9 @@ export default function App() {
         </section>
         <section id="contact">
           <Contact />
+        </section>
+        <section id="location">
+          <Location />
         </section>
       </main>
 

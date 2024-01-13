@@ -7,7 +7,7 @@ export function Contact() {
       <h2 className=" text-2xl sm:text-3xl md:text-4xl 2xl:text-5xl font-extrabold text-center text-white">
         Entre em contato conosco através de alguma das formas disponiveis
       </h2>
-      <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <p className="text-white text-center md:text-start">
           Não deixe seus problemas tecnológicos se acumularem, estamos aqui para
           simplificar sua vida digital. Experimente a excelência em serviços de
@@ -26,7 +26,7 @@ export function Contact() {
             >
               <Icon className="text-white size-10" />
               <div className="border border-gray-200 w-full" />
-              <p className="text-white text-base">{label}</p>
+              <p className="text-white text-sm md:text-base">{label}</p>
             </motion.a>
           ))}
         </div>
