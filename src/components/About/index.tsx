@@ -1,4 +1,4 @@
-import { Clock, Cloud, Headphones } from "lucide-react";
+import { Clock, Headphones, KeyRound } from "lucide-react";
 import DoubleQuatationMarks from "../../../public/double-quatation-marks.svg";
 import { Feature, FeatureProps } from "./Feature";
 
@@ -10,10 +10,10 @@ const features: FeatureProps[] = [
       "Em um mundo onde cada segundo importa, garantimos entregas rápidas sem comprometer a qualidade. Seu equipamento será atendido e devolvido em tempo recorde, proporcionando soluções eficientes quando você mais precisa.",
   },
   {
-    icon: <Cloud className="text-main-blue size-8 md:size-10" />,
-    title: "Cloud",
+    icon: <KeyRound className="text-main-blue size-8 md:size-10" />,
+    title: "Segurança",
     paragraph:
-      "Eleve sua experiência digital com nosso serviço de cloud. Armazenamento seguro, acesso remoto e colaboração simplificada. Deixe-nos guiar você pelo mundo da nuvem, proporcionando flexibilidade e segurança para seus dados.",
+      "Fortaleça a segurança dos seus dados com nossa avançada solução de proteção digital. Oferecemos um ambiente de armazenamento altamente seguro, garantindo a confidencialidade e integridade das suas informações.",
   },
   {
     icon: <Headphones className="text-main-blue size-8 md:size-10 " />,
@@ -25,7 +25,7 @@ const features: FeatureProps[] = [
 
 export function About() {
   return (
-    <div className="flex flex-col items-center w-8/12 mx-auto gap-5 md:gap-10">
+    <div className="flex flex-col items-center px-3 md:px-0 md:w-8/12 mx-auto gap-5 md:gap-10">
       <div className="relative">
         <img
           src={DoubleQuatationMarks}

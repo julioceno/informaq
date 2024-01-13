@@ -28,7 +28,7 @@ export const useMenuList = (): MenuItem[] => {
     {
       icon: <MapPinned size={20} />,
       label: "Localização",
-      href: "#",
+      href: "#location",
     },
   ]);
 
