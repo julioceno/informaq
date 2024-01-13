@@ -18,6 +18,9 @@ export default {
       screens: {
         xxs: "365px",
       },
+      boxShadow: {
+        "green-shadow": "0px 0px 64px 0px rgba(34, 197, 94, 0.30)",
+      },
     },
     fontFamily: {
       poppins: ["Poppins", ...defaultTheme.fontFamily.sans],

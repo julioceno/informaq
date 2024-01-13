@@ -1,4 +1,6 @@
+import { MessageCircleHeart } from "lucide-react";
 import ProgrammingPhoto from "../../../public/programming.svg";
+import { SocialMediaEnum } from "../../commom";
 
 export function MainSection() {
   return (
@@ -16,6 +18,15 @@ export function MainSection() {
         <span className="font-inter text-sm text-gray-500 md:mt-4 tracking-wider">
           Suporte gratuito para alguns serviços mesmo após a antrega.
         </span>
+
+        <a
+          className="self-center md:self-start bg-green-500 hover:bg-green-600 rounded-md flex justify-center items-center text-white gap-2 px-10 py-2 shadow-green-shadow mt-3 md:mt-20 "
+          href={SocialMediaEnum.WHATSAPP}
+          target="_blank"
+        >
+          <MessageCircleHeart className="size-6 md:size-8" />
+          <span className="text-sm md:text-base">Entre em Contato</span>
+        </a>
       </div>
     </section>
   );
