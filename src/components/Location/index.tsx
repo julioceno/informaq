@@ -19,7 +19,7 @@ const informations: InfoProps[] = [
 export function Location() {
   return (
     <div className="min-h-80">
-      <h2 className="font-inter text-center text-2xl sm:text-3xl md:text-4xl 2xl:text-5xl font-extrabold">
+      <h2 className="font-inter text-center md:text-start text-2xl sm:text-3xl md:text-4xl 2xl:text-5xl font-extrabold">
         Localização
       </h2>
       <div className="flex flex-col md:flex-row gap-5">
