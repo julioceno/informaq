@@ -22,11 +22,12 @@ export function Footer() {
         </div>
         <div className="flex flex-col md:flex-row-reverse w-full justify-between items-center xxs:items-start">
           <div className="flex  self-center xxs:self-end ">
-            {contacts.map(({ href, icon: Icon }) => (
+            {contacts.map(({ href, icon: Icon }, index) => (
               <a
                 href={href}
                 target="_blank"
                 className="hover:bg-zinc-600 py-0.5 px-1 rounded-md group peer"
+                key={index}
               >
                 <Icon className="text-zinc-600 size-6 group-hover:text-white duration-300" />
               </a>

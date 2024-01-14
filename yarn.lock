@@ -659,6 +659,11 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.6.tgz#c65b2bfce1bec346582c07724e3f8c1017a20339"
   integrity sha512-dn1l8LaMea/IjDoHNd9J52uBbInB796CDffS6VdIxvqYCPSG0V0DzHp76GpaWnlhg88uYyPbXCDIowa86ybd5A==
 
+"@types/string-format@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@types/string-format/-/string-format-2.0.3.tgz#7c9aa97a8dc5c1413e93768d9e899e9a6745567e"
+  integrity sha512-2BuDXYaQvSZR5XHlLJQ3KQ455NW+C1Mok0uOO6q8bnp97V/gtZbDEYy44kmu5Ng1U8wRtCSF/leREYVmH2vYmQ==
+
 "@typescript-eslint/eslint-plugin@^6.14.0":
   version "6.18.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.18.1.tgz#0df881a47da1c1a9774f39495f5f7052f86b72e0"
@@ -1273,6 +1278,11 @@ foreground-child@^3.1.0:
   dependencies:
     cross-spawn "^7.0.0"
     signal-exit "^4.0.1"
+
+format-string-by-pattern@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/format-string-by-pattern/-/format-string-by-pattern-1.2.2.tgz#840823f2f7c122ff8de8f0bb3f9b34a280cd5cb1"
+  integrity sha512-dYhtZGK/V7iif43UGjHu3ExGASwmoDdHPIejcVv/dYnCjtkzFl4XIXqKuzryj26DaXMAwvEQ3FUv09fROvgY/Q==
 
 fraction.js@^4.3.6:
   version "4.3.7"
@@ -1999,6 +2009,11 @@ source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
+
+string-format@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/string-format/-/string-format-2.0.0.tgz#f2df2e7097440d3b65de31b6d40d54c96eaffb9b"
+  integrity sha512-bbEs3scLeYNXLecRRuk6uJxdXUSj6le/8rNPHChIJTn2V79aXVTR1EH2OH5zLKKoz0V02fOUKZZcw01pLUShZA==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
   name string-width-cjs

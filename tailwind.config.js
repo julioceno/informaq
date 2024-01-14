@@ -24,7 +24,7 @@ export default {
     },
     fontFamily: {
       poppins: ["Poppins", ...defaultTheme.fontFamily.sans],
-      inter: ["Inter", ...defaultTheme.fontFamily.sans], // TODO: verify alternative
+      inter: ["Inter", ...defaultTheme.fontFamily.sans],
     },
   },
   plugins: [],

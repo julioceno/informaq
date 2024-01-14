@@ -19,7 +19,6 @@ export function PresentationService({
 
   const imageOrder = isRight ? "order-1" : "order-2";
   const contentOrder = isRight ? "order-2" : "order-1";
-
   const imageRounded = isRight
     ? "md:rounded-tl-6xl md:rounded-br-6xl"
     : "md:rounded-tr-6xl md:rounded-bl-6xl";

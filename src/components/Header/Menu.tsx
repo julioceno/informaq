@@ -1,5 +1,6 @@
+import formatStringByPattern from "format-string-by-pattern";
 import { Phone } from "lucide-react";
-import { Breakpoints, useIsLessThan } from "../../commom";
+import { Breakpoints, SocialMediaEnum, useIsLessThan } from "../../commom";
 import { useMenuList } from "./useMenuList";
 
 export function Menu() {
@@ -18,14 +19,13 @@ export function Menu() {
         ))}
       </ul>
 
-      {/* TODO: add this contact in enum */}
       {!isExtraSmall && (
         <a
           className="flex gap-2 ml-10 p-1.5 ease-in-out duration-200 rounded-md cursor-pointer hover:bg-gray-200  "
           href="tel:21988537749"
         >
           <Phone className="text-main-blue" />
-          21 98853-7749
+          {formatStringByPattern("(99) 99999-9999", SocialMediaEnum.TELPHONE)}
         </a>
       )}
     </nav>
