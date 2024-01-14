@@ -1,4 +1,4 @@
-import { MessageCircleHeart } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import ProgrammingPhoto from "../../../public/programming.svg";
 import { SocialMediaEnum } from "../../commom";
 
@@ -20,12 +20,12 @@ export function MainSection() {
         </span>
 
         <a
-          className="self-center md:self-start bg-green-500 hover:bg-green-600 rounded-md flex justify-center items-center text-white gap-2 px-10 py-2 shadow-green-shadow mt-3 md:mt-20 "
+          className="self-center md:self-start bg-green-500 hover:bg-green-600 duration-300 rounded-md flex justify-center items-center text-white gap-2 px-10 py-2 shadow-green-shadow mt-3 md:mt-20 "
           href={SocialMediaEnum.WHATSAPP}
           target="_blank"
         >
-          <MessageCircleHeart className="size-6 md:size-8" />
-          <span className="text-sm md:text-base">Entre em Contato</span>
+          <FaWhatsapp className="size-6 md:size-7" />
+          <span className="text-sm md:text-base">Escreva uma Mensagem</span>
         </a>
       </div>
     </section>
