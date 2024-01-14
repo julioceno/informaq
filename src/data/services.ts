@@ -144,7 +144,7 @@ export const services: PresentationServiceProps[] = [
     ],
   },
   {
-    title: "Energia Solar Sustentável: Criando um um Futuro Brilhante",
+    title: "Energia Solar Sustentável: Criando um Futuro Brilhante",
     photo: SolarPanelImage,
     paragraphs: [
       "Descubra o potencial da energia solar com nossos serviços especializados em instalação e manutenção de painéis solares. Na busca por uma fonte de energia mais limpa e eficiente, oferecemos soluções que não apenas economizam dinheiro, mas também contribuem para um futuro mais sustentável.",

@@ -37,7 +37,7 @@ export function About() {
         </h2>
       </div>
       <p className="font-inter font-light text-lg text-center md:text-start">
-        Em 14//12/1998 a empresa denominada REI DAS MÁQUINAS. Empresa na qual
+        Em 14/12/1998 a empresa denominada REI DAS MÁQUINAS. Empresa na qual
         faziamos manutenção em máquinas de escrever, mimeógrafos, fax e
         calculadoras e já estavamos consertando computadores e impressoras desde
         1996. Migramos com o CNPJ para INFORMAQ LTDA. E agradecemos aos nossos
