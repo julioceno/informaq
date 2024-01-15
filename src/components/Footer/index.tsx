@@ -33,7 +33,7 @@ export function Footer() {
               </a>
             ))}
           </div>
-          <p className="flex inter text-xs md:text-sm font-light justify-end text-end">
+          <p className="flex inter text-xs md:text-sm font-light justify-end text-end xxs:self-end">
             &copy; Todos os direitos reservados {year}
           </p>
         </div>
